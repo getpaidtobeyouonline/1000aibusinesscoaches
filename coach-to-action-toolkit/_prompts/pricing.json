@@ -1,0 +1,45 @@
+{
+  "category": "Pricing",
+  "prompts": [
+    {
+      "title": "Work Out Your First Price",
+      "text": "Act as a calm pricing advisor for a small online business. My business is [your business] and I want to price [your offer] for the first time. Here is what goes into it: [time it takes, materials or tools, anything you pay for]. Give me three price options, a gentle one, a fair one, and a stretch one, and for each show the rough maths and what it assumes about how many I sell in a month. Finish with one short paragraph on which one you would pick and why. Keep it plain and friendly, with no jargon."
+    },
+    {
+      "title": "Check If You Are Undercharging",
+      "text": "You are a straight talking friend who is good with numbers. I charge [your price] for [your offer] and it takes me roughly [time it takes] from start to finish. Work out my real hourly rate once I take off [your rough costs], and tell me honestly how that compares to what skilled work is usually worth. Then give me three specific signs from my own numbers that I am undercharging. End with one small change I could make this month. Be kind, but do not sugar coat it."
+    },
+    {
+      "title": "Plan A Price Rise",
+      "text": "Act as a pricing coach for a solo business owner. I sell [your offer] at [your price] and I want to move to [your new price]. Give me a simple three step plan for the rise, covering when to announce it, how much notice to give, and whether to let existing customers stay on the old price for a while. Include the two biggest mistakes people make when raising prices and how I can avoid them. Keep it under 300 words and use short numbered steps."
+    },
+    {
+      "title": "Tell Existing Customers Kindly",
+      "text": "Write me a short, warm message telling my existing customers that the price of [your offer] is going up from [your old price] to [your new price] on [date]. My customers are [your ideal customer] and I have worked with some of them for a while, so the tone needs to be honest and human, not corporate. Explain the rise in one sentence without over apologising, say what stays the same, and tell them exactly what to do next. Give me two versions, one for email and one shorter version for a message or DM. No hype and no long story."
+    },
+    {
+      "title": "Answer It Is Too Expensive",
+      "text": "You are helping me handle price objections without going wobbly. I sell [your offer] at [your price] to [your ideal customer]. Write five replies I can use when someone says it is too expensive, each one three sentences or less, and each taking a different angle such as value, what is included, timing, a smaller option, and a polite close. Do not use pushy language and never talk anyone into something they cannot afford. End with one line I can say to myself before I hit send so I do not panic and discount."
+    },
+    {
+      "title": "Build A Premium Option",
+      "text": "Act as an offer designer for a small business. My main offer is [your offer] at [your price] and my customer is [your ideal customer]. Design a premium version priced at roughly two to three times my current price, and tell me exactly what to add so the extra cost feels obviously worth it. Give me the name, the price, four things included, and one sentence on who it is right for. Make sure everything you add is realistic for one person to deliver on her own."
+    },
+    {
+      "title": "Set Up A Payment Plan",
+      "text": "You are a practical business advisor. I want to offer a payment plan for [your offer], which costs [your price]. Suggest two payment plan structures, show the instalment amounts, and say whether to add a small admin fee and how much. Then list the four rules I should set out in writing, covering missed payments, when access starts, refunds, and what happens if someone stops paying. Keep the wording simple enough to paste straight onto my checkout page."
+    },
+    {
+      "title": "Write Your Discount Policy",
+      "text": "Help me organise a clear discount policy for [your business] so I stop deciding case by case. Write me a one page policy covering when I will discount, when I will not, the most I will ever take off, and how I handle friends, family, and repeat customers. Include three polite scripts for saying no to a discount request. Keep the tone warm and firm, and keep the whole thing under 400 words."
+    },
+    {
+      "title": "Price A Custom Quote",
+      "text": "Act as a quoting assistant for a service business. A customer has asked me for [describe the custom job] and my usual rate is [your price] for [your offer]. Walk me through a simple quoting formula, then apply it to this job using assumptions you state clearly, so I can swap in my real numbers. Give me the final quote as a range, plus three questions I should ask the customer before I send it. Finish with a short quote message I can adapt in my own words."
+    },
+    {
+      "title": "Say Your Price With Confidence",
+      "text": "You are a supportive coach helping me say my price out loud without wobbling. I charge [your price] for [your offer] and my biggest worry is [your biggest challenge]. Write me a short script for saying my price on a call, in a DM, and on a written quote, with no apologising and no extra padding. Then give me three things I can remind myself of, based on the real value of what I do, when the nerves show up. Keep every line short enough to remember."
+    }
+  ]
+}

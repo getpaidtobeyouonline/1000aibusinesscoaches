@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Report-To-Action Workbook | The Coach-To-Action Toolkit</title>
+<meta name="description" content="Turn any coaching report into a simple weekly plan you will actually follow.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#1A0A2E; --bg2:#2D1B4E; --card:#3D2660; --accent:#C9B8E8; --accent2:#8B5CF6;
+  --text:#FFFFFF; --muted:#A89BC2; --border:#5B3F8C; --green:#22C55E;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+/* Safety net for small screens: nothing may push the page sideways, and long
+   words or pasted links always wrap instead of overflowing. */
+html,body{max-width:100%;overflow-x:hidden}
+p,h1,h2,h3,h4,li,textarea,input,a{overflow-wrap:break-word;word-break:break-word}
+body{font-family:'Nunito',system-ui,sans-serif;background:linear-gradient(135deg,#1A0A2E 0%,#0D0D1A 100%);
+  background-attachment:fixed;color:var(--text);line-height:1.65;min-height:100vh;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:'Playfair Display',Georgia,serif}
+a{color:var(--accent)}
+.wrap{max-width:1000px;margin:0 auto;padding:18px 18px 90px}
+
+/* nav */
+.nav{display:flex;gap:6px;flex-wrap:wrap;padding:14px 0 20px;border-bottom:1px solid var(--border);margin-bottom:26px}
+.nav a{display:inline-block;text-decoration:none;font-weight:700;font-size:13.5px;color:var(--muted);
+  border:1px solid var(--border);border-radius:999px;padding:7px 14px;transition:all .15s}
+.nav a:hover{color:var(--text);border-color:var(--accent2)}
+.nav a.on{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+
+/* hero */
+.hero{text-align:center;padding:14px 6px 26px}
+.hero .kicker{display:inline-block;letter-spacing:.15em;text-transform:uppercase;font-size:11.5px;
+  font-weight:800;color:var(--muted);margin-bottom:12px}
+.hero h1{font-size:clamp(28px,6vw,46px);line-height:1.12;font-weight:800}
+.hero p{color:var(--accent);margin-top:14px;font-size:clamp(15px,2.4vw,18px);max-width:640px;margin-left:auto;margin-right:auto}
+
+/* panels + buttons */
+.panel{background:var(--bg2);border:1px solid var(--border);border-radius:18px;padding:22px 20px;margin-bottom:18px;
+  box-shadow:0 14px 40px rgba(0,0,0,.32)}
+.panel h2{font-size:clamp(20px,3.6vw,27px);margin-bottom:6px}
+.panel .lead{color:var(--muted);margin-bottom:18px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:inherit;font-weight:800;
+  font-size:15.5px;cursor:pointer;border:none;border-radius:12px;padding:13px 22px;color:#fff;text-decoration:none;
+  background:linear-gradient(135deg,var(--accent2),#6D28D9);box-shadow:0 8px 22px rgba(139,92,246,.36);
+  transition:transform .12s,box-shadow .12s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(139,92,246,.46)}
+.btn.sec{background:transparent;color:var(--accent);border:1px solid var(--border);box-shadow:none}
+.btn.sec:hover{border-color:var(--accent2);transform:none;box-shadow:none}
+.btn.ok{background:linear-gradient(135deg,var(--green),#16A34A);box-shadow:0 8px 22px rgba(34,197,94,.36)}
+.btn-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+
+/* footer */
+.foot{text-align:center;color:var(--muted);font-size:13px;padding:30px 10px 10px;border-top:1px solid var(--border);margin-top:36px}
+.foot a{font-weight:700}
+.foot .disc{max-width:620px;margin:0 auto 12px;font-style:italic;line-height:1.55}
+
+@media(max-width:560px){
+  .wrap{padding:14px 14px 80px}
+  .panel{padding:18px 15px;border-radius:14px}
+  .nav a{font-size:12.5px;padding:6px 11px}
+  .btn{width:100%}
+}
+@media print{
+  body{background:#fff;color:#000}
+  .nav,.no-print,.btn{display:none !important}
+  .panel{border:1px solid #ccc;box-shadow:none;background:#fff;break-inside:avoid}
+  h1,h2,h3,h4,.hero h1{color:#000}
+  .hero p,.panel .lead,.foot{color:#333}
+}
+.saved{display:flex;align-items:center;gap:9px;font-size:14px;color:var(--muted)}.saved .dot{width:9px;height:9px;border-radius:50%;background:var(--green);flex:0 0 auto;box-shadow:0 0 0 4px rgba(34,197,94,.16)}label.field{display:block;margin-bottom:16px}.q{display:block;font-weight:800;font-size:15.5px;margin-bottom:3px}.hint{display:block;color:var(--muted);font-size:13.5px;margin-bottom:7px}textarea,input[type=text]{width:100%;font-family:inherit;font-size:15.5px;color:var(--text);background:var(--bg);border:1px solid var(--border);border-radius:11px;padding:12px 13px;transition:border-color .15s,box-shadow .15s}textarea{resize:vertical;min-height:62px}textarea:focus,input[type=text]:focus{outline:none;border-color:var(--accent2);box-shadow:0 0 0 3px rgba(139,92,246,.26)}::placeholder{color:rgba(168,155,194,.55)}.acts{display:grid;gap:10px}.act{display:grid;grid-template-columns:34px 1fr 1fr auto;gap:9px;align-items:center;background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:11px 12px}.act input[type=text]{background:transparent;border:none;padding:6px 4px;border-bottom:1px solid var(--border);border-radius:0}.act input[type=text]:focus{box-shadow:none;border-bottom-color:var(--accent2)}.anum{width:28px;height:28px;border-radius:8px;background:rgba(201,184,232,.16);color:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13.5px}.tick{display:flex;align-items:center;gap:7px;font-size:13.5px;color:var(--muted);cursor:pointer;white-space:nowrap}.tick input{width:18px;height:18px;accent-color:var(--accent2);cursor:pointer}@media(max-width:620px){.act{grid-template-columns:28px 1fr;grid-auto-rows:auto}.act .tick{grid-column:1 / -1;justify-content:flex-end}}@media print{textarea,input[type=text]{border:1px solid #bbb;color:#000;background:#fff;min-height:auto}.hint{color:#555}.saved{display:none}.act{border:1px solid #bbb;background:#fff}.anum{background:#eee;color:#000}}</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="nav"><a href="index.html">Toolkit Home</a><a href="coach-picker-guide.html">Coach Picker</a><a href="30-day-coaching-plan.html">30 Day Plan</a><a href="report-to-action-workbook.html" class="on">Workbook</a><a href="prompt-pack-expansion.html">Prompt Pack</a></nav><header class="hero"><div class="kicker">Module 3</div><h1>The Report-To-Action Workbook</h1><p>A coaching report is lovely to read. This turns it into a plan you will actually follow. Fill it in as you go, it saves itself.</p></header><section class="panel no-print"><div class="saved"><span class="dot"></span><span id="savedNote">Your words save automatically on this device</span></div><p class="lead" style="margin-top:10px;margin-bottom:0">Everything you type stays in this browser on this device. It is private, it never leaves your computer, and nobody else can see it.</p></section><section class="panel"><h2>Section A, My Coaching Report</h2><p class="lead">Open a coach, get your report, then paste each part in below.</p><label class="field"><span class="q">Your Diagnosis</span><span class="hint">Paste what your coach said about where you are right now.</span><textarea id="diagnosis" rows="4" placeholder="Paste here..."></textarea></label><label class="field"><span class="q">Your Strategy</span><span class="hint">Paste the recommended approach for your situation.</span><textarea id="strategy" rows="4" placeholder="Paste here..."></textarea></label><label class="field"><span class="q">Your Action Steps</span><span class="hint">Paste the numbered list of next moves.</span><textarea id="actions" rows="4" placeholder="Paste here..."></textarea></label><label class="field"><span class="q">Your Next Moves</span><span class="hint">Paste what your coach suggested for this week, month and quarter.</span><textarea id="next" rows="4" placeholder="Paste here..."></textarea></label></section><section class="panel"><h2>Section B, My Weekly Plan</h2><p class="lead">Now make it small and doable. One focus, three actions, that is plenty.</p><label class="field"><span class="q">The one thing I am fixing this week</span><span class="hint">Just one. The rest can wait.</span><textarea id="onething" rows="2" placeholder="This week I am focusing on..."></textarea></label><div class="q" style="margin-bottom:8px">My three actions</div><div class="acts"><div class="act"><div class="anum">1</div><input type="text" id="act1" placeholder="What I will do"><input type="text" id="when1" placeholder="When I will do it"><label class="tick"><input type="checkbox" id="done1"> Done</label></div><div class="act"><div class="anum">2</div><input type="text" id="act2" placeholder="What I will do"><input type="text" id="when2" placeholder="When I will do it"><label class="tick"><input type="checkbox" id="done2"> Done</label></div><div class="act"><div class="anum">3</div><input type="text" id="act3" placeholder="What I will do"><input type="text" id="when3" placeholder="When I will do it"><label class="tick"><input type="checkbox" id="done3"> Done</label></div></div><label class="field" style="margin-top:16px"><span class="q">What I will say no to this week</span><span class="hint">Protecting your time is part of the plan.</span><textarea id="sayno" rows="2" placeholder="I am saying no to..."></textarea></label><label class="field"><span class="q">How I will know it worked</span><span class="hint">One simple sign. It does not have to be a number.</span><textarea id="knew" rows="2" placeholder="I will know it worked when..."></textarea></label></section><section class="panel"><h2>Section C, My Month at a Glance</h2><p class="lead">One line per week. A gentle sense of direction, not a rigid plan.</p><label class="field"><span class="q">Week 1</span><input type="text" id="wk1" placeholder="My intention for week 1"></label><label class="field"><span class="q">Week 2</span><input type="text" id="wk2" placeholder="My intention for week 2"></label><label class="field"><span class="q">Week 3</span><input type="text" id="wk3" placeholder="My intention for week 3"></label><label class="field"><span class="q">Week 4</span><input type="text" id="wk4" placeholder="My intention for week 4"></label></section><section class="panel no-print"><div class="btn-row"><button class="btn" id="printBtn">Print my plan</button><button class="btn sec" id="copyBtn">Copy my plan as text</button><button class="btn sec" id="clearBtn">Clear and start a new week</button></div></section><footer class="foot"><p class="disc">For educational and informational purposes only. This is not legal, financial, or medical advice.</p><p><a href="https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/" target="_blank" rel="noopener">Open your vault of 1000 coaches</a></p></footer>
+</div>
+<script>var IDS=["diagnosis","strategy","actions","next","onething","sayno","knew","act1","act2","act3","when1","when2","when3","wk1","wk2","wk3","wk4"],CHECKS=["done1","done2","done3"],KEY="ctat_workbook_v1";function load(){try{return JSON.parse(localStorage.getItem(KEY))||{};}catch(e){return {};}}function save(){var s={};IDS.forEach(function(id){var e=document.getElementById(id);if(e)s[id]=e.value;});CHECKS.forEach(function(id){var e=document.getElementById(id);if(e)s[id]=e.checked;});try{localStorage.setItem(KEY,JSON.stringify(s));}catch(e){}flash();}var note=document.getElementById("savedNote"),t;function flash(){note.textContent="Saved just now on this device";clearTimeout(t);t=setTimeout(function(){note.textContent="Your words save automatically on this device";},1800);}var data=load();IDS.forEach(function(id){var e=document.getElementById(id);if(!e)return;if(data[id])e.value=data[id];e.addEventListener("input",save);});CHECKS.forEach(function(id){var e=document.getElementById(id);if(!e)return;if(data[id])e.checked=true;e.addEventListener("change",save);});function val(id){var e=document.getElementById(id);return e&&e.value.trim()?e.value.trim():"";}function asText(){var L=[];L.push("MY COACHING PLAN");L.push("");L.push("== MY COACHING REPORT =="); [["Your Diagnosis","diagnosis"],["Your Strategy","strategy"],["Your Action Steps","actions"],["Your Next Moves","next"]].forEach(function(p){if(val(p[1])){L.push(p[0]+":");L.push(val(p[1]));L.push("");}});L.push("== MY WEEKLY PLAN ==");if(val("onething"))L.push("The one thing I am fixing this week: "+val("onething"));L.push("");L.push("My three actions:");[1,2,3].forEach(function(i){var a=val("act"+i);if(!a)return;var wn=val("when"+i);var dn=document.getElementById("done"+i).checked?"[x]":"[ ]";L.push("  "+dn+" "+i+". "+a+(wn?"  (when: "+wn+")":""));});L.push("");if(val("sayno"))L.push("Saying no to: "+val("sayno"));if(val("knew"))L.push("I will know it worked when: "+val("knew"));L.push("");L.push("== MY MONTH AT A GLANCE ==");[1,2,3,4].forEach(function(i){if(val("wk"+i))L.push("Week "+i+": "+val("wk"+i));});return L.join("\n");}document.getElementById("printBtn").onclick=function(){window.print();};document.getElementById("copyBtn").onclick=function(){var b=this,txt=asText();function done(){b.textContent="Copied";b.classList.add("ok");setTimeout(function(){b.textContent="Copy my plan as text";b.classList.remove("ok");},1800);}if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,function(){fb(txt);done();});}else{fb(txt);done();}};function fb(txt){var ta=document.createElement("textarea");ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.focus();ta.select();try{document.execCommand("copy");}catch(e){}document.body.removeChild(ta);}document.getElementById("clearBtn").onclick=function(){if(!confirm("This clears everything you have written here and starts a fresh week. Are you sure?"))return;IDS.forEach(function(id){var e=document.getElementById(id);if(e)e.value="";});CHECKS.forEach(function(id){var e=document.getElementById(id);if(e)e.checked=false;});try{localStorage.removeItem(KEY);}catch(e){}window.scrollTo({top:0,behavior:"smooth"});};</script>
+</body>
+</html>

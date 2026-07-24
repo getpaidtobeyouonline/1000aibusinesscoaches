@@ -1,0 +1,45 @@
+{
+  "category": "Getting Clients",
+  "prompts": [
+    {
+      "title": "Find Your First Customer",
+      "text": "Act as a practical business advisor helping someone get their very first paying customer. My business is [your business] and my offer is [your offer]. Give me a step by step plan for the next seven days, with one small action per day that I could finish in under an hour. Focus on people I can actually reach right now, not on building an audience from nothing. End with the exact words I could use on day one so I do not have to think about it."
+    },
+    {
+      "title": "Where Your People Gather",
+      "text": "Help me work out where my ideal customer already spends time. My ideal customer is [your ideal customer] and she needs [your offer] because [your customer's problem]. List 12 specific places she is likely to be, including online groups, local spots, newsletters, events and other people's audiences. For each one, suggest how I could show up there helpfully without spamming. Rank them by how easy they would be for me to start with this week."
+    },
+    {
+      "title": "The Warm Message",
+      "text": "Write me a message I can send to someone who already knows me, letting them know what I am doing now. My business is [your business] and I help [your ideal customer] with [your offer]. Write three versions: one for a close friend, one for a former colleague or customer, and one for someone I have not spoken to in a while. Each should be short, sound like a real message rather than a pitch, and make it easy for them to say no. Do not use any pressure or false flattery."
+    },
+    {
+      "title": "Ask For Referrals",
+      "text": "I find it awkward to ask people to recommend me. My business is [your business] and my happiest customers are the sort who [your best customer type]. Write me three short referral messages: one to send just after a customer has had a good result, one to send to a past customer months later, and one to send to another business owner who serves the same people. Each should make clear exactly who I am looking for so they know who to think of. Keep the tone friendly and low pressure, and never make them feel they owe me."
+    },
+    {
+      "title": "Follow Up Without Nagging",
+      "text": "Someone enquired about [your offer] and then went quiet. Write me a follow up sequence of three messages, spaced out over two weeks, that feels helpful rather than pushy. The first should add something useful, the second should answer the likely worry which is [your customer's main hesitation], and the third should close the loop kindly and leave the door open. Keep each message under 80 words. My business is [your business] and my tone is warm and straightforward."
+    },
+    {
+      "title": "Turn Enquiries Into Bookings",
+      "text": "Act as someone who is very good at gentle sales conversations. I get enquiries about [your offer] but many of them go nowhere. Give me a simple structure for replying to a new enquiry that builds trust and moves towards a decision, including the three questions I should always ask. Then write me a full example reply I can adapt. My typical price is [your price] and my ideal customer is [your ideal customer]. Keep it human, no scripts that sound like a call centre."
+    },
+    {
+      "title": "When She Needs To Think",
+      "text": "Someone told me she needs to think about it before buying [your offer]. Help me understand what is usually going on underneath that phrase, and list the five most likely real reasons for [your ideal customer]. For each reason, give me one honest question I could ask and one reply I could send. Nothing manipulative, I want her to make the right decision even if that is no. Finish with the single best message to send when I have no idea which reason it is."
+    },
+    {
+      "title": "Start A Waiting List",
+      "text": "I am fully booked at the moment and I keep losing people who cannot get in. Help me set up a simple waiting list for [your offer]. Tell me what to say when someone enquires, what to send them while they wait so they stay interested, and how to let them know when a space opens. Give me the exact wording for all three. My business is [your business] and I usually have space again after about [your typical wait time]."
+    },
+    {
+      "title": "Bring Past Customers Back",
+      "text": "Act as an advisor who understands repeat business for small shops and service businesses. My business is [your business] and my main offer is [your offer]. Give me eight ideas for bringing past customers back, based on what would genuinely be useful to them rather than just discounting. For each idea, tell me who to send it to and roughly when. Then write the full wording for the two you think would work best for me."
+    },
+    {
+      "title": "Ask For A Testimonial",
+      "text": "I want to collect better testimonials without putting people on the spot. My business is [your business] and my offer is [your offer]. Write me a short message asking a happy customer for a few words, plus four simple questions I can include that will draw out a specific and useful answer rather than just nice. Also tell me the best moment to ask. Add one line on how to ask for permission to use her name and photo, kept casual and easy to refuse."
+    }
+  ]
+}

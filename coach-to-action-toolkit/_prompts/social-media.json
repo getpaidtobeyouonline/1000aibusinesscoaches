@@ -1,0 +1,45 @@
+{
+  "category": "Social Media",
+  "prompts": [
+    {
+      "title": "Hooks That Stop The Scroll",
+      "text": "Act as a copywriter who writes for small independent businesses. My topic is [your topic] and my ideal customer is [your ideal customer]. Write me 15 opening lines that would make her stop scrolling and read on. Use a mix of a surprising fact, a question, a confession, a short story opening, and a gentle challenge. Keep every line under 12 words and avoid anything that sounds like clickbait or hype."
+    },
+    {
+      "title": "Write My Caption",
+      "text": "Help me write a caption for a post about [your topic]. My business is [your business] and I want the reader to [your desired action]. Write three versions: one short and punchy, one that tells a small story, and one that teaches something useful. Each should have a clear opening line, easy to read spacing, and a natural sounding call to action at the end. Write like a real person talking, not like an advert."
+    },
+    {
+      "title": "Fix Your Profile Bio",
+      "text": "I will paste my current bio below and I want it to be much clearer. Rewrite it so someone landing on my page understands within seconds what I do, who it is for, and what to do next. Give me four different versions in different tones: warm, playful, straight to the point, and quietly confident. Keep each one under 150 characters where possible. My business is [your business], I help [your ideal customer] with [your offer], and here is my current bio: [paste your bio]."
+    },
+    {
+      "title": "A Week Of Posts",
+      "text": "Plan my social media for one week so I stop deciding at the last minute. My business is [your business], my offer is [your offer], and I can realistically post [number] times a week. Give me a simple table with the day, the post type, the topic, and the first line. Balance it so I am not selling every day but I am also not hiding my offer. Keep the ideas easy to make on a busy day."
+    },
+    {
+      "title": "Sell Without Feeling Pushy",
+      "text": "Write me five posts that invite people to buy [your offer] without sounding pushy. My ideal customer is [your ideal customer] and the main thing holding her back is [your customer's main hesitation]. Each post should lead with something useful or human, then move gently into the invitation. Include a different call to action each time, such as replying, sending a message, or clicking a link. Keep the tone warm and honest, and never use urgency that is not real."
+    },
+    {
+      "title": "Turn Comments Into Conversations",
+      "text": "Act as someone who is brilliant at making people feel welcome online. Give me 12 ways to reply to comments on my posts that keep the conversation going rather than ending it with a thank you. My business is [your business] and my audience is [your ideal customer]. Show me a sample reply for each, including how to respond to a compliment, a question, a disagreement, and a one word comment. Keep every reply under two sentences and sounding like me, not like a script."
+    },
+    {
+      "title": "Short Video Scripts",
+      "text": "Write me three short video scripts of around 40 seconds each about [your topic]. My business is [your business] and my ideal customer is [your ideal customer]. For each script, give me the hook to say in the first three seconds, the middle in three short spoken beats, and a simple closing line. Add a note on what to show on screen while I am talking. Write the words the way I would actually say them out loud, with short sentences and no jargon."
+    },
+    {
+      "title": "Grow Without Ads",
+      "text": "Act as a practical growth advisor for a very small business with no ad budget. My business is [your business], I sell [your offer], and I currently have [your follower count] followers. Give me 10 realistic ways to be found by more of the right people, using only my own time and effort. For each one, tell me how long it takes per week and what result I could reasonably expect over three months. Be honest about which ones are slow burners, and do not promise numbers or income."
+    },
+    {
+      "title": "Choose The Right Platform",
+      "text": "Help me stop spreading myself thin. My business is [your business], I sell [your offer] to [your ideal customer], and I currently post on [your platforms]. Ask me five short questions about my time, my strengths and where my customers actually spend time. Then recommend one main platform and one supporting platform, with your reasoning. Finish with a simple weekly routine for each so I know exactly what to do."
+    },
+    {
+      "title": "Rescue A Quiet Account",
+      "text": "My social media has gone quiet and I do not know what is wrong. I will paste my last few posts below. Look at them and tell me honestly what is missing, whether that is a weak opening, no clear point, no reason to respond, or too much sameness. Give me three specific changes to try over the next two weeks and one post idea for each change. My business is [your business] and my ideal customer is [your ideal customer]. Here are my posts: [paste your recent posts]."
+    }
+  ]
+}

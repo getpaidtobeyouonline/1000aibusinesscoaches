@@ -1,0 +1,45 @@
+{
+  "category": "Sales Pages",
+  "prompts": [
+    {
+      "title": "Draft A Whole Sales Page",
+      "text": "Act as a plain speaking copywriter for a small online business. Write a full sales page for [your offer] at [your price], sold to [your ideal customer] who wants [the result they want]. Use this structure: heading, who it is for, the problem, what is included, how it works step by step, about me, questions people ask, and what to do next. Keep every paragraph to three sentences or less, use everyday words, and make no promises about money or results. Mark anything you have guessed about my business in square brackets so I can correct it."
+    },
+    {
+      "title": "Write Ten Headline Options",
+      "text": "You are a headline writer who hates hype. My offer is [your offer] for [your ideal customer] and the main result is [the result they want]. Give me ten headline options in a mix of styles: clear and direct, result led, question led, and one that names the exact person it is for. Keep each under twelve words and avoid exclamation marks, big claims, and words like ultimate or secret. Then tell me your top two and why they would suit my customer."
+    },
+    {
+      "title": "Open With The Right Words",
+      "text": "Act as a copy editor focused on first impressions. Here is the current opening of my sales page: [paste your opening]. Rewrite it three ways for [your ideal customer], one that starts with her situation, one that starts with a question she is already asking herself, and one that starts with a very short story. Each should be under 80 words and lead naturally into what I sell. Then explain in two lines what was slowing my original down."
+    },
+    {
+      "title": "Show What Is Included",
+      "text": "You are helping me present my offer clearly. Here is what is inside [your offer]: [list everything included]. Turn it into a clean section for my sales page where every item has a short bold label and one line explaining what it does for [your ideal customer]. Order them so the most valuable thing comes first, and add a one sentence summary at the end. Do not exaggerate anything and do not add items I did not list."
+    },
+    {
+      "title": "Answer The Awkward Questions",
+      "text": "Act as an honest sales page writer. My offer is [your offer] at [your price] and the thing people hesitate about most is [your biggest challenge]. Write a questions section with eight real questions people would ask, including the awkward ones about price, time needed, refunds, and whether it will work for them. Answer each in two or three sentences, honestly, including saying who it is not right for. Keep the tone warm and never promise a specific outcome."
+    },
+    {
+      "title": "Write Your About Me Section",
+      "text": "You are writing the about section of a sales page, not a life story. My business is [your business], I have been doing this for [how long], and my customer is [your ideal customer]. Write two versions of a short about section, one around 100 words and one around 50, both focused on why she can trust me with this specific thing. Include my experience naturally and keep it modest and human, with no boasting and no long backstory. End each version with one line that brings the focus back to her."
+    },
+    {
+      "title": "Turn Reviews Into Proof",
+      "text": "Act as a copywriter who is good at using real words. Here are things my customers have said about [your offer]: [paste your reviews or messages]. Choose the strongest three, tidy them lightly without changing the meaning, and write a one line intro for each explaining what doubt it answers. Then tell me where on the page each one should sit. Do not invent quotes or add anything nobody actually said."
+    },
+    {
+      "title": "Make The Buy Button Clear",
+      "text": "You are helping me make the next step obvious. My offer is [your offer] at [your price] and people buy through [your checkout or booking method]. Write me five button labels and, for each, two lines of supporting text saying exactly what happens after clicking, including what they receive and when. Keep the language calm and specific, no shouting and no countdown pressure. Then tell me how many times the button should appear on a page of average length."
+    },
+    {
+      "title": "Cut The Waffle From Your Page",
+      "text": "Act as a ruthless but kind editor. Here is my sales page: [paste your page]. Cut it down by at least a third without losing anything a buyer needs, and show me the shortened version. Then list the five sentences you cut that I might miss, with one line each on why they were not earning their place. Keep my voice intact and do not make it sound like a big company wrote it."
+    },
+    {
+      "title": "Check It Through Her Eyes",
+      "text": "You are reading my sales page as my customer, not as a marketer. She is [your ideal customer] and her worry is [your biggest challenge]. Here is the page: [paste your page]. Read it top to bottom and tell me the exact moment she would hesitate, the question she would still have at the end, and the one thing that would reassure her most. Give me three specific fixes with the words to use, and be honest even if the answer is that the page is not ready."
+    }
+  ]
+}

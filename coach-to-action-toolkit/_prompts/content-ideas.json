@@ -1,0 +1,45 @@
+{
+  "category": "Content Ideas",
+  "prompts": [
+    {
+      "title": "Thirty Days Of Ideas",
+      "text": "Act as a content planner for a small online business. My business is [your business] and I sell [your offer] to [your ideal customer]. Give me 30 content ideas I could post over the next month, one per line, numbered. Mix them across four buckets: teaching something useful, showing my process, sharing a customer story, and inviting people to buy. Keep each idea to one short sentence I can act on straight away, and use plain everyday words."
+    },
+    {
+      "title": "Turn One Idea Into Five",
+      "text": "I want to get more out of one idea instead of always starting from scratch. My topic is [your topic] and my audience is [your ideal customer]. Take that single idea and turn it into five different pieces of content: a short teaching post, a story post, a question that starts a conversation, a quick tip list, and a soft sales post. For each one, give me the opening line and three bullet points I can expand. Keep the tone warm and down to earth, like I am talking to one person."
+    },
+    {
+      "title": "Answer The Real Questions",
+      "text": "Act as a friendly researcher who understands [your niche]. List the 15 questions that [your ideal customer] most often asks before they buy something like [your offer]. Sort them into three groups: questions about the problem, questions about the solution, and questions about trusting me. For each question, add one sentence explaining what she is really worried about underneath. I will use this list as my content plan for the next few weeks."
+    },
+    {
+      "title": "Behind The Scenes Ideas",
+      "text": "People like seeing how things are made, but I never know what to show. My business is [your business] and my day usually involves [your typical tasks]. Give me 12 behind the scenes content ideas that would be interesting to someone who is not in my industry. For each idea, tell me what to film or photograph and what caption angle to use. Keep it simple and doable with just my phone, and avoid anything that needs fancy editing."
+    },
+    {
+      "title": "Myths In My Niche",
+      "text": "Act as a thoughtful expert in [your niche]. List 10 things that people commonly believe about [your topic] that are not quite right. For each one, write the myth in one sentence, then the truth in two or three sentences that I could use as a post. Make the tone kind rather than argumentative, because I do not want to make anyone feel silly. Finish by telling me which three would be the most useful for [your ideal customer] to hear first."
+    },
+    {
+      "title": "Content From Your Sales Page",
+      "text": "I will paste my sales page or offer description below. Read it and pull out every promise, benefit and objection you can find. Then turn those into 12 content ideas, each one focused on a single point rather than the whole offer. Give me a title and a two sentence outline for each. My offer is [your offer] and my ideal customer is [your ideal customer]. Here is my page: [paste your sales page text]."
+    },
+    {
+      "title": "Stories From Your Own Life",
+      "text": "Help me find the stories I already have. Ask me 10 questions, one at a time, designed to dig out moments from my life and work that connect to [your niche]. Good questions might be about how I started [your business], a mistake I learned from, or a customer who surprised me. After each answer I give you, suggest how that story could become a post and what the lesson would be. Keep your questions short and easy to answer in a sentence or two."
+    },
+    {
+      "title": "Seasonal Content Plan",
+      "text": "Act as a planner who understands how small shops and service businesses sell through the year. My business is [your business] and my busiest season is [your busy season]. Map out the next three months and tell me what my content should focus on in each one, given what my customers are thinking about at that time. Give me four content themes per month with three post ideas under each theme. Note any moment where I should be selling harder and any moment where I should just be building goodwill."
+    },
+    {
+      "title": "The Quick Tip Bank",
+      "text": "I want a bank of small, genuinely useful tips I can post whenever I am short on time. My area is [your niche] and my customers struggle most with [your customer's biggest struggle]. Write me 20 tips, each one no longer than two sentences, that give real value rather than obvious advice. Number them and put the most surprising ones first. Avoid anything vague, every tip should tell her something to actually do."
+    },
+    {
+      "title": "Repurpose Your Best Post",
+      "text": "I will paste a post that did well for me. Work out why it landed, then give me five new posts built on the same angle rather than the same words. Also suggest one way to turn it into a longer piece such as an email or a short guide. My business is [your business] and my audience is [your ideal customer]. Here is the post: [paste your best post]."
+    }
+  ]
+}

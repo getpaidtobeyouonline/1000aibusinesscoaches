@@ -1,0 +1,45 @@
+{
+  "category": "Launches",
+  "prompts": [
+    {
+      "title": "Map A Simple Launch Plan",
+      "text": "Act as a launch planner for a small online business. I am launching [your offer] at [your price] to [your ideal customer], and my doors open on [date]. Build me a two week plan as a simple day by day list, with one main task per day and nothing that needs a team. Include the warm up period, the opening, the middle stretch, and the close. Keep the whole plan doable alongside normal work, and flag the three days that matter most."
+    },
+    {
+      "title": "Write Your Warm Up Posts",
+      "text": "You are a content planner who keeps things light. I am launching [your offer] in [number] weeks to [your ideal customer]. Give me ten warm up post ideas that build interest without selling yet, mixing stories, questions, behind the scenes, and useful tips. For each one, give a title, the point it makes, and a first line I could actually use. Keep the tone warm and normal, with no hype and no countdown pressure."
+    },
+    {
+      "title": "Open A Waiting List",
+      "text": "Act as a practical marketing helper. I want to open a waiting list for [your offer] before it goes on sale to [your ideal customer]. Write me the short sign up page copy, including a heading, three lines on what they get by joining, and the button text. Then give me three posts inviting people to join, each a different angle. Keep every piece under 100 words and make it clear that joining is not a commitment to buy."
+    },
+    {
+      "title": "Write Your Launch Day Post",
+      "text": "You are helping me announce that something is now open. My offer is [your offer] at [your price] for [your ideal customer], and it opens today. Write me three versions of a launch day post: one that leads with the problem, one that leads with a short story, and one that is simply clear and direct. Each should end with what to do next and a link. Keep them under 150 words each, warm, and free of hype or big promises."
+    },
+    {
+      "title": "Plan Your Middle Week Content",
+      "text": "Act as a launch coach who knows the quiet middle is the hard part. I am selling [your offer] to [your ideal customer] and my cart closes on [date]. Give me seven pieces of content for the middle stretch, each tackling one real reason someone hesitates, such as price, time, doubt, or timing. For each, give the hesitation, the angle, and one honest sentence I can lead with. Do not use urgency tricks or fake scarcity."
+    },
+    {
+      "title": "Close The Doors Warmly",
+      "text": "You are helping me write the final push without being pushy. My offer is [your offer] at [your price] and it closes on [date and time]. Write me three short closing messages, one for the day before, one for the morning of, and one for the last few hours. Each should be honest, calm, and clear about what happens after the deadline. Keep them under 120 words and never invent scarcity that is not real."
+    },
+    {
+      "title": "Add Bonuses That Actually Help",
+      "text": "Act as an offer strategist. I am launching [your offer] at [your price] to [your ideal customer]. Suggest four bonuses that would genuinely remove a barrier to getting a result, not just add clutter, and say which barrier each one removes. Tell me which single bonus to lead with and how to describe it in one sentence. Only suggest bonuses I could realistically create or deliver on my own in a week."
+    },
+    {
+      "title": "Launch To A Small Audience",
+      "text": "You are a realistic coach for someone with a small following. I have around [your audience size] people paying attention and I am selling [your offer] at [your price]. Give me a launch approach built for small numbers, leaning on personal messages, conversations, and existing customers rather than big public posts. Lay it out as five steps with what to do and what to say at each one. Be honest about what a small launch can reasonably look like and do not promise numbers."
+    },
+    {
+      "title": "Rescue A Quiet Launch",
+      "text": "Act as a calm problem solver. My launch for [your offer] is quieter than I hoped and here is what has happened so far: [what has happened]. Ask me to consider the four most likely causes, covering the offer, the message, the audience, and the number of times I have actually asked, then say which one your best guess is. Give me three things I can do in the next 48 hours that are practical, not desperate. Keep the tone steady and kind, and remind me nothing here is a verdict on my worth."
+    },
+    {
+      "title": "Run A Launch Debrief",
+      "text": "You are a thoughtful reviewer helping me learn from this launch. Here is what happened with [your offer]: [your numbers and what you did]. Walk me through a short debrief covering what worked, what did not, what I would keep, and what I would drop next time. Pull out the three lessons that would make the biggest difference and turn them into a simple checklist for my next launch. Be honest and specific, and keep the whole thing under 500 words."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "category": "Email",
+  "prompts": [
+    {
+      "title": "Write A Warm Welcome Email",
+      "text": "Act as an email writer for a small online business. Someone has just joined my list at [your business] after signing up for [what they signed up for]. Write a welcome email that thanks her, tells her in three lines who I am and what I do, sets out what she will get from me and how often, and gives her one useful thing she can use straight away. Keep it under 200 words, warm and conversational, and end with a simple question that invites a reply. Give me three subject line options as well."
+    },
+    {
+      "title": "Build A Five Email Welcome Series",
+      "text": "You are planning a short welcome series for [your business], selling [your offer] to [your ideal customer]. Give me five emails, and for each one give the purpose, the subject line, the main point, and the call to action. Build it so the first three are genuinely helpful and only the last two mention buying. Keep every email idea deliverable in under 300 words when written. Explain in one line why this order works for someone who has only just met me."
+    },
+    {
+      "title": "Fill A Month Of Newsletters",
+      "text": "Act as a content planner for a busy one woman business. My business is [your business] and my readers are [your ideal customer], who mostly struggle with [your biggest challenge]. Give me twelve newsletter ideas I could work through over three months, each with a subject line, the one point it makes, and the small action it asks for. Mix teaching, stories, behind the scenes, and gentle selling, and mark which type each one is. Keep every idea something I could write in under an hour."
+    },
+    {
+      "title": "Write Subject Lines That Get Opened",
+      "text": "You are a subject line writer who never uses clickbait. Here is my email: [paste your email]. Write twelve subject lines in four groups of three: curious, clear and useful, personal, and short. Keep each under 45 characters where you can, and never promise something the email does not deliver. Then pick your top three and say in one line who each one would appeal to."
+    },
+    {
+      "title": "Wake Up A Quiet List",
+      "text": "Act as a kind but practical email coach. I have not emailed my list at [your business] for [how long] and I feel awkward about it. Write me a short come back email that acknowledges the gap in one honest sentence without a long apology, reminds people who I am, says what they will get from now on, and gives them an easy way to leave if they want. Keep it under 180 words and make it feel like a real person wrote it. Add two subject line options."
+    },
+    {
+      "title": "Sell Without Feeling Pushy",
+      "text": "You are helping me write a sales email that still sounds like me. I am selling [your offer] at [your price] to [your ideal customer], and it is available until [date]. Write one email of around 250 words that opens with a real situation she recognises, explains what the offer does, lists what is included in four short lines, and ends with one clear link. Use a calm, honest tone with no countdown pressure and no promises about results. Give me a plain subject line and a curious one."
+    },
+    {
+      "title": "Tell A Story That Sells",
+      "text": "Act as a storytelling email writer. Here is a real moment from my business: [describe what happened]. Turn it into an email of around 250 words for [your ideal customer] that tells the story simply, draws out one useful lesson, and links naturally to [your offer]. Keep the story honest, keep the lesson small and practical, and do not force a dramatic ending. Finish with one line inviting a reply so I can hear her version."
+    },
+    {
+      "title": "Follow Up After An Enquiry",
+      "text": "You are helping me follow up without nagging. Someone asked about [your offer] at [your price] and then went quiet. Write me a sequence of three short follow up emails, spaced a few days apart, each with a different purpose: a gentle check in, one helpful thing that answers a likely worry, and a polite close that makes it easy to say no. Keep each under 120 words. Make sure the last one leaves the door open kindly."
+    },
+    {
+      "title": "Look After New Customers",
+      "text": "Act as a customer care writer for [your business]. Someone has just bought [your offer]. Write me two emails: one sent straight after purchase that confirms what happens next and how to reach me, and one sent a week later that checks how she is getting on and offers one small tip. Keep both under 150 words, warm and clear, with no upselling in the first one. Add a friendly subject line for each."
+    },
+    {
+      "title": "Ask For A Review Politely",
+      "text": "You are helping me ask for feedback without any awkwardness. A customer has finished [your offer] and had a good experience. Write a short email asking for a review or a few words I can share, making it easy by offering three simple questions she can answer instead of writing from scratch. Tell her exactly where to leave it and how long it takes. Keep it under 150 words, make it genuinely easy to say no, and give me a version I could send as a DM instead."
+    }
+  ]
+}

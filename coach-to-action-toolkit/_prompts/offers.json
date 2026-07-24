@@ -1,0 +1,45 @@
+{
+  "category": "Offers",
+  "prompts": [
+    {
+      "title": "Shape Your Signature Offer",
+      "text": "Act as an offer designer for a one woman business. My business is [your business], my customer is [your ideal customer], and the result they want most is [the result they want]. Design one clear signature offer for me, including the name, what is included in four bullet points, how long it takes, and the promise in a single sentence. Keep it simple enough that I can deliver it repeatedly on my own without burning out. Explain in two sentences why this shape suits my customer."
+    },
+    {
+      "title": "Name Your Offer Well",
+      "text": "You are good at naming things in plain English. My offer is [your offer] and it helps [your ideal customer] with [the problem it solves]. Give me twelve name ideas in three groups: clear and descriptive, warm and personal, and short and memorable. Avoid clever wordplay that hides what the thing actually is, and avoid anything that sounds like a big company. Finish by picking your top three and saying in one line why each works."
+    },
+    {
+      "title": "Create A Small First Offer",
+      "text": "Act as a practical business coach. My main offer is [your offer] at [your price], and some people are not ready to buy it yet. Design a small, low cost first offer priced under [your budget price] that gives a real quick win and leads naturally to the main thing. Tell me what it includes, how long it takes me to deliver, and the one sentence I would use to describe it. Make sure it is genuinely useful on its own and not a thin sample."
+    },
+    {
+      "title": "Build Three Simple Tiers",
+      "text": "You are helping me organise my offers into a simple menu. My main offer is [your offer] at [your price] and my customer is [your ideal customer]. Build me three tiers, a starter, a middle, and a top option, with names, prices, and exactly what is in each. Make the middle one the obvious choice for most people, and say in one line how you did that. Keep every tier easy for one person to deliver."
+    },
+    {
+      "title": "Describe It So People Get It",
+      "text": "Act as a plain English editor. Here is how I currently describe my offer: [paste your current description]. Rewrite it three ways for [your ideal customer], one focused on the result, one focused on the experience of working with me, and one focused on what makes it different. Each version should be under 60 words, warm, and free of buzzwords. Then tell me which words in my original were vague and what to say instead."
+    },
+    {
+      "title": "Test An Idea Before Building",
+      "text": "You are a sensible advisor who stops me wasting weeks. I am thinking of creating [your offer idea] for [your ideal customer]. Give me a five step plan to test whether people actually want it before I build the whole thing, using only things I can do in a week with a small audience. For each step, tell me what to do and what result would tell me to carry on or stop. Be honest about what a weak signal looks like."
+    },
+    {
+      "title": "Bundle What You Already Have",
+      "text": "Act as an offer strategist. Here is everything I already sell: [list your current offers and prices]. Suggest three bundles I could create from what already exists, with a name, the items included, a bundle price, and who each one suits. Do not invent anything new that I would have to make from scratch. Finish with one line on which bundle to try first and why."
+    },
+    {
+      "title": "Add A Simple Upsell",
+      "text": "You are helping me add one natural next step. My offer is [your offer] at [your price] and my customer is [your ideal customer]. Suggest three add ons I could offer at the point of purchase or just after delivery, with a price for each and one sentence explaining why it fits that moment. Keep each add on small enough to deliver without much extra work. Then write me a short, friendly line for offering the best one without any pressure."
+    },
+    {
+      "title": "Design A Repeat Offer",
+      "text": "Act as a business coach who understands steady income. My business is [your business] and my customer is [your ideal customer]. Design one offer people could buy again and again, such as a monthly service, a refill, a retainer, or a small membership, and tell me what is in it, how much it costs, and how often it renews. Explain in three bullet points what would make someone stay, and in two bullet points what would make them leave. Keep the delivery load realistic for one person."
+    },
+    {
+      "title": "Fix An Offer That Is Not Selling",
+      "text": "You are a calm diagnostic partner. My offer is [your offer] at [your price], I have been selling it for [how long], and the results so far are [what has happened]. Work through the four most likely reasons it is not selling, covering the offer itself, the price, the message, and who is seeing it, and say which one you think is most likely for me. Give me one specific test for that reason that I can run in the next two weeks. Be direct and do not comfort me with vague advice."
+    }
+  ]
+}

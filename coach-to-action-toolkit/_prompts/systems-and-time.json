@@ -1,0 +1,45 @@
+{
+  "category": "Systems and Time",
+  "prompts": [
+    {
+      "title": "Sort Your Messy Week",
+      "text": "Act as a calm planner who understands running a small business around other commitments. I have about [your hours] hours a week for [your business] and my week currently looks like [describe your week]. Build me a simple weekly shape that groups similar work together, with a name for each block and what belongs in it. Protect one block for the work that actually brings money in. Keep it realistic for someone with interruptions, and do not fill every hour."
+    },
+    {
+      "title": "Write Your Order Process",
+      "text": "Help me write down exactly what happens from the moment someone orders [your offer] to the moment the job is finished. My business is [your business] and my usual steps are roughly [your current steps]. Turn this into a numbered checklist with the action, who does it, and roughly how long it takes. Flag any step where things usually go wrong or where I could save time. Keep the language simple enough that I could hand this to someone else tomorrow."
+    },
+    {
+      "title": "Templates You Keep Retyping",
+      "text": "I waste time writing the same messages again and again. My business is [your business] and I most often write to people about [your common messages]. List the 10 templates I should have saved, then write the three most useful ones in full. Leave square brackets where I need to personalise each one. Keep the tone warm and human so they never read like a copied and pasted reply."
+    },
+    {
+      "title": "Onboard A New Customer",
+      "text": "Design me a simple welcome process for someone who has just bought [your offer]. My business is [your business] and the first thing they need from me is [your first step]. Map out what I send, when I send it, and what it should say, from the moment they pay through to the first week. Give me the wording for the welcome message and one follow up. The aim is that she feels looked after and knows exactly what happens next."
+    },
+    {
+      "title": "What To Stop Doing",
+      "text": "Act as an honest advisor who wants to protect my time. I will list everything I currently do in my business below. Sort each task into keep, simplify, batch, or stop, and give me one line of reasoning for each. Be brave with the stop list, especially for things that feel productive but do not lead to sales or to a happy customer. My business is [your business] and my biggest time drain is [your biggest time drain]. Here is my list: [paste your task list]."
+    },
+    {
+      "title": "Your Money Admin Routine",
+      "text": "Help me build a simple routine for keeping on top of the money side of [your business]. Give me a short weekly check, a slightly longer monthly check, and a quarterly review, with a clear list of what to do in each. Include things like sending invoices, chasing late payments, recording expenses and looking at what sold well. My main offer is [your offer] and the part I put off most is [your least favourite admin task], so give that one extra attention. Keep it plain and practical, I am not an accountant and I do not want spreadsheets I will never open."
+    },
+    {
+      "title": "Batch A Month Of Work",
+      "text": "I want to do my [your repeated task] in one go instead of daily. Give me a batching session plan for a [number] hour block, broken into stages with timings. Tell me what to prepare beforehand so I am not stopping to look things up. Include a short warm up stage for getting ideas down quickly and a final stage for scheduling everything. My business is [your business] and I usually get stuck at [your sticking point]."
+    },
+    {
+      "title": "The Two Hour Week",
+      "text": "Some weeks I only get about two hours for my business. My business is [your business] and my current priority is [your priority]. Tell me exactly what I should do with those two hours to keep things moving, and what I should let slide guilt free. Give me a minimum viable week checklist of no more than six items. Order them so that if I only manage the first two, they are the ones that matter most."
+    },
+    {
+      "title": "Get Ready To Hand Over",
+      "text": "I am thinking about getting some help with [your task to delegate]. My business is [your business] and I usually spend about [your hours] hours a week on it. Write me a clear brief I could give to a freelancer or assistant, covering what the job is, what good looks like, what to do when they are unsure, and what to never change without asking me. Then list the five things I need to prepare before handing it over. Keep it friendly and specific rather than formal."
+    },
+    {
+      "title": "A Simple Monthly Review",
+      "text": "Design me a monthly review I will actually do, taking no more than 30 minutes. My business is [your business] and the numbers I can easily see are [your available numbers]. Give me a short set of questions covering what sold, where customers came from, what took the most time, and what to change next month. Make it a fixed list I can reuse every month. End with one prompt that helps me choose a single focus for the coming month."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The 30-Day Coaching Plan | The Coach-To-Action Toolkit</title>
+<meta name="description" content="A gentle day by day coaching plan for your first month, with a real coach for every day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#1A0A2E; --bg2:#2D1B4E; --card:#3D2660; --accent:#C9B8E8; --accent2:#8B5CF6;
+  --text:#FFFFFF; --muted:#A89BC2; --border:#5B3F8C; --green:#22C55E;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+/* Safety net for small screens: nothing may push the page sideways, and long
+   words or pasted links always wrap instead of overflowing. */
+html,body{max-width:100%;overflow-x:hidden}
+p,h1,h2,h3,h4,li,textarea,input,a{overflow-wrap:break-word;word-break:break-word}
+body{font-family:'Nunito',system-ui,sans-serif;background:linear-gradient(135deg,#1A0A2E 0%,#0D0D1A 100%);
+  background-attachment:fixed;color:var(--text);line-height:1.65;min-height:100vh;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:'Playfair Display',Georgia,serif}
+a{color:var(--accent)}
+.wrap{max-width:1000px;margin:0 auto;padding:18px 18px 90px}
+
+/* nav */
+.nav{display:flex;gap:6px;flex-wrap:wrap;padding:14px 0 20px;border-bottom:1px solid var(--border);margin-bottom:26px}
+.nav a{display:inline-block;text-decoration:none;font-weight:700;font-size:13.5px;color:var(--muted);
+  border:1px solid var(--border);border-radius:999px;padding:7px 14px;transition:all .15s}
+.nav a:hover{color:var(--text);border-color:var(--accent2)}
+.nav a.on{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+
+/* hero */
+.hero{text-align:center;padding:14px 6px 26px}
+.hero .kicker{display:inline-block;letter-spacing:.15em;text-transform:uppercase;font-size:11.5px;
+  font-weight:800;color:var(--muted);margin-bottom:12px}
+.hero h1{font-size:clamp(28px,6vw,46px);line-height:1.12;font-weight:800}
+.hero p{color:var(--accent);margin-top:14px;font-size:clamp(15px,2.4vw,18px);max-width:640px;margin-left:auto;margin-right:auto}
+
+/* panels + buttons */
+.panel{background:var(--bg2);border:1px solid var(--border);border-radius:18px;padding:22px 20px;margin-bottom:18px;
+  box-shadow:0 14px 40px rgba(0,0,0,.32)}
+.panel h2{font-size:clamp(20px,3.6vw,27px);margin-bottom:6px}
+.panel .lead{color:var(--muted);margin-bottom:18px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:inherit;font-weight:800;
+  font-size:15.5px;cursor:pointer;border:none;border-radius:12px;padding:13px 22px;color:#fff;text-decoration:none;
+  background:linear-gradient(135deg,var(--accent2),#6D28D9);box-shadow:0 8px 22px rgba(139,92,246,.36);
+  transition:transform .12s,box-shadow .12s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(139,92,246,.46)}
+.btn.sec{background:transparent;color:var(--accent);border:1px solid var(--border);box-shadow:none}
+.btn.sec:hover{border-color:var(--accent2);transform:none;box-shadow:none}
+.btn.ok{background:linear-gradient(135deg,var(--green),#16A34A);box-shadow:0 8px 22px rgba(34,197,94,.36)}
+.btn-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+
+/* footer */
+.foot{text-align:center;color:var(--muted);font-size:13px;padding:30px 10px 10px;border-top:1px solid var(--border);margin-top:36px}
+.foot a{font-weight:700}
+.foot .disc{max-width:620px;margin:0 auto 12px;font-style:italic;line-height:1.55}
+
+@media(max-width:560px){
+  .wrap{padding:14px 14px 80px}
+  .panel{padding:18px 15px;border-radius:14px}
+  .nav a{font-size:12.5px;padding:6px 11px}
+  .btn{width:100%}
+}
+@media print{
+  body{background:#fff;color:#000}
+  .nav,.no-print,.btn{display:none !important}
+  .panel{border:1px solid #ccc;box-shadow:none;background:#fff;break-inside:avoid}
+  h1,h2,h3,h4,.hero h1{color:#000}
+  .hero p,.panel .lead,.foot{color:#333}
+}
+.prog .bar{height:10px;border-radius:999px;background:var(--bg);border:1px solid var(--border);overflow:hidden}.prog .bar span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent2),#22C55E);transition:width .3s}.ptext{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;margin-top:9px}.ptext strong{font-size:15px}.ptext span{color:var(--muted);font-size:14px}.wk{margin-bottom:26px}.wk h2{font-size:22px;margin-bottom:3px}.wk .wn{color:var(--muted);font-size:14px;margin-bottom:14px}.days{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:13px}.day{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:15px 16px;display:flex;flex-direction:column;gap:7px}.day.done{border-color:var(--green);background:rgba(34,197,94,.09)}.dh{display:flex;justify-content:space-between;align-items:center;gap:8px}.dn{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}.day h4{font-size:16.5px;line-height:1.28;font-family:"Playfair Display",serif}.day p{color:var(--muted);font-size:13.8px;flex:1}.day .btn{font-size:13.5px;padding:9px 15px;width:100%}.tick{display:flex;align-items:center;gap:8px;cursor:pointer;font-size:13.5px;color:var(--muted);user-select:none}.tick input{width:19px;height:19px;accent-color:var(--accent2);cursor:pointer;flex:0 0 auto}.day.rev{background:var(--bg2);border-style:dashed}@media print{.days{grid-template-columns:repeat(2,1fr);gap:7px}.day{padding:8px 10px;border:1px solid #ccc;background:#fff}.day h4{font-size:12px}.day p{font-size:10.5px;color:#333}.dn{color:#555}.wk h2{font-size:15px}.hero p{display:none}.tick{font-size:10px;color:#555}}</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="nav"><a href="index.html">Toolkit Home</a><a href="coach-picker-guide.html">Coach Picker</a><a href="30-day-coaching-plan.html" class="on">30 Day Plan</a><a href="report-to-action-workbook.html">Workbook</a><a href="prompt-pack-expansion.html">Prompt Pack</a></nav><header class="hero"><div class="kicker">Module 2</div><h1>The 30-Day Coaching Plan</h1><p>One coach a day for your first month. Tick them off as you go. Miss a day and nothing breaks, the plan simply waits for you.</p></header><section class="panel no-print"><div class="prog"><div class="bar"><span id="fill"></span></div><div class="ptext"><strong id="pcount">0 of 30 days done</strong><span id="pmsg">Whenever you are ready, start with Day 1.</span></div></div><div class="btn-row"><button class="btn sec" id="printBtn">Print my plan</button><button class="btn sec" id="resetBtn">Clear my ticks</button></div></section><div id="weeks"></div><footer class="foot"><p class="disc">For educational and informational purposes only. This is not legal, financial, or medical advice.</p><p><a href="https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/" target="_blank" rel="noopener">Open your vault of 1000 coaches</a></p></footer>
+</div>
+<script>var DAYS=[{"d":1,"w":1,"title":"The Ideal Client Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-ideal-client-coach","take":"A clear picture of the one person you are here to help."},{"d":2,"w":1,"title":"The Audience Research Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-audience-research-coach","take":"Real words from real people to use in your marketing."},{"d":3,"w":1,"title":"The Niching Down Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-niching-down-coach","take":"A tighter focus so the right people find you."},{"d":4,"w":1,"title":"The Dream Clients Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-dream-clients-coach","take":"A picture of the customers you would love more of."},{"d":5,"w":1,"title":"The Branding Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-branding-coach","take":"A brand that feels like you, not like everyone else."},{"d":6,"w":1,"title":"The Brand Voice Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-brand-voice-coach","take":"A way of writing that sounds like you every time."},{"d":7,"w":1,"title":"The Goal Setting Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-goal-setting-coach","take":"One clear goal for the next 30 days."},{"d":8,"w":2,"title":"The Offer Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-offer-coach","take":"An offer that makes sense to the person buying it."},{"d":9,"w":2,"title":"The Signature Offer Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-signature-offer-coach","take":"The one thing you want to be known for."},{"d":10,"w":2,"title":"The Pricing Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-pricing-coach","take":"A price you can say out loud without flinching."},{"d":11,"w":2,"title":"The Charging Your Worth Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-charging-your-worth-coach","take":"A little more nerve about what you are worth."},{"d":12,"w":2,"title":"The Value Communication Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-value-communication-coach","take":"Words that make the price feel fair."},{"d":13,"w":2,"title":"The Profit Pricing Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-profit-pricing-coach","take":"Prices that leave you something to keep."},{"d":14,"w":2,"title":"The Revenue Goals Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-revenue-goals-coach","take":"A realistic number to aim at this month."},{"d":15,"w":3,"title":"The Content Marketing Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-content-marketing-coach","take":"A simple content approach you can keep up."},{"d":16,"w":3,"title":"The Content Ideas Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-content-ideas-coach","take":"A list of ideas so you never start from blank."},{"d":17,"w":3,"title":"The Content Pillars Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-content-pillars-coach","take":"The few themes you will talk about from now on."},{"d":18,"w":3,"title":"The Storytelling Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-storytelling-coach","take":"A story of yours worth telling."},{"d":19,"w":3,"title":"The Social Media Strategy Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-social-media-strategy-coach","take":"A calmer plan for showing up online."},{"d":20,"w":3,"title":"The Audience Growth Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-audience-growth-coach","take":"A way to grow that does not burn you out."},{"d":21,"w":3,"title":"The Lead Magnet Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-lead-magnet-coach","take":"A free thing that brings the right people in."},{"d":22,"w":4,"title":"The Email Marketing Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-email-marketing-coach","take":"A reason and a rhythm for emailing your people."},{"d":23,"w":4,"title":"The Welcome Sequence Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-welcome-sequence-coach","take":"A warm welcome that runs without you."},{"d":24,"w":4,"title":"The Soft Selling Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-soft-selling-coach","take":"A way to sell that feels kind and still works."},{"d":25,"w":4,"title":"The Sales Confidence Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-sales-confidence-coach","take":"The nerve to actually ask for the sale."},{"d":26,"w":4,"title":"The Testimonials Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-testimonials-coach","take":"Proof from happy customers, asked for properly."},{"d":27,"w":4,"title":"The Productivity Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-productivity-coach","take":"A few hours back in your week."},{"d":28,"w":4,"title":"The Workflows Coach","url":"https://getpaidtobeyouonline.github.io/1000aibusinesscoaches/#the-workflows-coach","take":"The repeating jobs turned into simple systems."},{"d":29,"w":4,"title":"Look back","take":"Read your notes from the month. Write down the three things that made the biggest difference, and the one thing you would skip next time.","review":true},{"d":30,"w":4,"title":"Plan next month","take":"Pick your one goal for next month, then choose five coaches from the vault to work through. Put them in your diary now.","review":true}],WEEKS=[{"n":1,"title":"Week 1, Foundations","note":"Get clear on your business and the person you serve."},{"n":2,"title":"Week 2, Offers and Pricing","note":"Shape what you sell and what you charge."},{"n":3,"title":"Week 3, Getting Seen","note":"Content, social and growing your audience."},{"n":4,"title":"Week 4, Selling and Systems","note":"Turn interest into sales, and tidy the back end."}],KEY="ctat_plan30_v1";function load(){try{return JSON.parse(localStorage.getItem(KEY))||{};}catch(e){return {};}}function save(s){try{localStorage.setItem(KEY,JSON.stringify(s));}catch(e){}}var state=load();function esc(s){return String(s).replace(/[&<>"]/g,function(m){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[m];});}var wrap=document.getElementById("weeks");WEEKS.forEach(function(wk){var sec=document.createElement("section");sec.className="wk";sec.innerHTML='<h2>'+esc(wk.title)+'</h2><p class="wn">'+esc(wk.note)+'</p>';var g=document.createElement("div");g.className="days";DAYS.filter(function(d){return d.w===wk.n;}).forEach(function(d){var c=document.createElement("div");c.className="day"+(d.review?" rev":"")+(state["d"+d.d]?" done":"");c.id="day"+d.d;var inner='<div class="dh"><span class="dn">Day '+d.d+'</span></div><h4>'+esc(d.title)+'</h4><p>'+esc(d.take)+'</p>';if(!d.review){inner+='<a class="btn" href="'+d.url+'" target="_blank" rel="noopener">Visit this coach</a>';}inner+='<label class="tick"><input type="checkbox" '+(state["d"+d.d]?"checked":"")+'> Done</label>';c.innerHTML=inner;c.querySelector("input").onchange=function(){state["d"+d.d]=this.checked;if(!this.checked)delete state["d"+d.d];save(state);c.classList.toggle("done",this.checked);paint();};g.appendChild(c);});sec.appendChild(g);wrap.appendChild(sec);});var MSG=[["Whenever you are ready, start with Day 1.",0],["A lovely start. Keep it gentle.",1],["You are building a real habit now.",5],["Look at you go. Well over a week in.",10],["Halfway. That is properly impressive.",15],["The final stretch, and you are still here.",21],["Nearly there. Finish at your own pace.",26],["You did the whole month. Take a moment to be proud.",30]];function paint(){var n=DAYS.filter(function(d){return state["d"+d.d];}).length;document.getElementById("fill").style.width=(n/DAYS.length*100)+"%";document.getElementById("pcount").textContent=n+" of "+DAYS.length+" days done";var m=MSG[0][0];MSG.forEach(function(x){if(n>=x[1])m=x[0];});document.getElementById("pmsg").textContent=m;}document.getElementById("printBtn").onclick=function(){window.print();};document.getElementById("resetBtn").onclick=function(){if(!confirm("This clears your ticks and starts the month fresh. Your plan stays the same. Carry on?"))return;state={};save(state);Array.prototype.forEach.call(document.querySelectorAll(".day"),function(c){c.classList.remove("done");});Array.prototype.forEach.call(document.querySelectorAll(".tick input"),function(i){i.checked=false;});paint();};paint();</script>
+</body>
+</html>

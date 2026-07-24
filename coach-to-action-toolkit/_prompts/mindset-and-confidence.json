@@ -1,0 +1,45 @@
+{
+  "category": "Mindset and Confidence",
+  "prompts": [
+    {
+      "title": "Say Your Price Out Loud",
+      "text": "I go wobbly when I have to tell someone my price. My offer is [your offer] and my price is [your price]. Give me three ways to say my price plainly and warmly, with no apologising and no long explanation tacked on the end. Then list the four things I should remind myself of just before I send it, based on the real value of what I deliver. Keep it practical, I want words I can use today."
+    },
+    {
+      "title": "Make The Case For Your Price",
+      "text": "Act as a level headed business advisor. I am wondering whether [your price] is right for [your offer], and I keep undercharging because I compare myself to cheaper options. Ask me five questions about my time, costs, skill and results. Then give me an honest view on whether the price stands up, and write me a short paragraph explaining the value that I could keep on hand for when I doubt it. Be straight with me rather than simply reassuring."
+    },
+    {
+      "title": "When You Feel Too Visible",
+      "text": "Putting myself out there for [your business] makes me want to hide. Help me work out what exactly I am uncomfortable with, by listing 10 different parts of being visible and asking me to rate each one from easy to awful. Then build me a gentle ladder of five steps, starting with the easiest and ending with [your visibility goal]. Suggest one step to take this week. Treat this as a practical business skill I can build, not a personality trait."
+    },
+    {
+      "title": "Stop Comparing Yourself",
+      "text": "I keep looking at [your competitor type] and feeling behind. Help me turn that into something useful instead. Ask me what specifically I noticed, then help me sort it into three piles: things worth learning from, things that simply do not suit my business, and things I cannot see the full picture of. Finish by naming three things my business does that theirs does not. My business is [your business] and my ideal customer is [your ideal customer]."
+    },
+    {
+      "title": "Just Send The Email",
+      "text": "I have been sitting on an email about [your topic] for days and I keep rewriting it. Ask me what I am afraid will happen if I send it, then tell me honestly how likely each of those things is and what I would do if they happened. Then help me get it finished by giving me a five minute plan to make it good enough and press send. My list is [your list size] people and my business is [your business]. Do not let me polish it any further than it needs."
+    },
+    {
+      "title": "Show Up On Video",
+      "text": "I want to start showing my face for [your business] and I freeze every time. Give me a simple 20 minute practice routine I can do at home before I ever post anything, broken into four short steps. Then give me five very low stakes first videos I could make about [your topic], in order of how easy they are. Add three practical fixes for the things that put me off, such as not knowing what to say or hating how I sound. Keep it matter of fact and encouraging."
+    },
+    {
+      "title": "Believe In Your Offer",
+      "text": "Some days I am not sure my offer is good enough. My offer is [your offer] and I sell it to [your ideal customer]. Interview me with eight questions about what actually happens for my customers, what they say afterwards, and what would be missing if I stopped. Then write me a clear one page summary of why this offer is worth what I charge. Write it as something I can reread on a low day."
+    },
+    {
+      "title": "Handle A Quiet Month",
+      "text": "Sales have been slow in [your business] and I am starting to doubt the whole thing. Help me look at this calmly. Ask me about the last three months, what I did differently, what is normal for my season, and what I have stopped doing. My main offer is [your offer] and my usual source of customers is [your main customer source]. Then give me an honest read of what is probably going on and a short list of three things to do this week. Keep it practical and steady, and do not tell me it will definitely turn around."
+    },
+    {
+      "title": "Someone Was Rude",
+      "text": "I received an unkind comment about [your business] and it knocked me sideways. Help me decide what to do with it. First sort it for me: is there anything true and useful in it, or is it just noise. Then, if a reply is needed, write me two options, one short and gracious and one that politely draws a line. Finish by telling me how to keep it from taking up any more of my working day. Here is the comment: [paste the comment]."
+    },
+    {
+      "title": "Keep Track Of Wins",
+      "text": "I never notice progress because I only look at what is not done yet. My business is [your business] and I started it around [when you started]. Ask me 10 questions that will help me remember what I have built, learned, sold and improved since then. Then write it all up as a simple list of wins I can keep and add to. Suggest a five minute habit for recording wins each week so I have something to look back on when I feel flat."
+    }
+  ]
+}
